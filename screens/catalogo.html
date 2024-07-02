@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel de Elementos</title>
+    <link rel="stylesheet" href="/css/catalogo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <div class="header1">
+        <li><a href="#"><i class="fas fa-search"></i></a></li> <!-- Lupa -->
+        <a href="../index.html">
+            <div class="header2">
+                <h1>ar</h1>
+                <h2>Artesaníaen Piel</h2>
+            </div>
+        </a>
+        <li><a href="#"><i class="fas fa-shopping-bag"></i></a></li>
+    </div>
+    <ul>
+        <li><a href="#Bolsas">Bolsas</a></li>
+        <li><a href="#Mochilas">Mochilas</a></li>
+        <li><a href="#Bandoleras">Bandoleras</a></li>
+        <li><a href="#Carteras">Carteras</a></li>
+        <li><a href="#Mandiles">Mandiles</a></li>
+        <li><a href="#Escolares">Escolares</a></li>
+        <li><a href="#Otro">Otro</a></li>
+    </ul>
+</header>
+
+<!-- Carruseldemierda -->
+<section id="container-slider">	
+    <a href="javascript: fntExecuteSlide('prev');" class="arrowPrev"><i class="fas fa-chevron-circle-left"></i></a>
+    <a href="javascript: fntExecuteSlide('next');" class="arrowNext"><i class="fas fa-chevron-circle-right"></i></a>
+    <ul class="listslider">
+      <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+      <li><a itlist="itList_1" href="#"></a></li>
+      <li><a itlist="itList_2" href="#"></a></li>
+    </ul>
+    <ul id="slider">
+      <li style="background-image: url('https://cdn.pixabay.com/photo/2020/04/15/11/20/telework-5046230_1280.jpg'); z-index:0; opacity: 1;">
+        <div class="content_slider" >
+          <div>
+            <h2>Emprendimiento empresarial</h2>
+        <p>Descubra en qué consiste el emprendimiento empresarial por medio de 5 estrategias fundamentales.</p>
+        <a href="#" class="btnSlider">Ver más</a>
+      </div>
+        </div>
+      </li>
+      <li style="background-image: url('https://cdn.pixabay.com/photo/2018/02/20/10/28/business-3167295_960_720.jpg'); ">
+        <div class="content_slider" >
+          <div>
+            <h2>Negocios</h2>
+        <p>Recursos, guías, herramientas y consejos para emprender, crear tu empresa o iniciar un negocio exitoso</p>
+        <a href="#" class="btnSlider">Ver más</a>
+      </div>
+        </div>
+      </li>
+      <li style="background-image: url('https://cdn.pixabay.com/photo/2015/07/17/22/42/typing-849806_960_720.jpg'); ">
+        <div class="content_slider" >
+          <div>
+            <h2>Estrategias de negocio</h2>
+        <p>Las estrategias de negocio representan planes o métodos...</p>
+        <a href="#" class="btnSlider">Ver más</a>
+      </div>
+        </div>
+      </li>
+   </ul>
+ </section>
+
+<div class="titulo">
+<h1 class="titulo1">Cosido y Cortado a Mano Envíos a Todo México </h1>
+</div>
+
+<div class="categorias">
+    <div id="Bolsas" class="categoria categoria1">
+        <p>BOLSAS</p>
+        <h3>Cotiza segun tus necesidades</h3>
+    </div>
+    <div id="Mochilas" class="categoria categoria2">
+        <p>MOCHILAS</p>
+        <h3>Prendas para el y ella</h3>
+    </div>
+    <div id="Bandoleras" class="categoria categoria3">
+        <p>BANDOLERAS</p>
+        <h3>Variedad de Accesorios</h3>
+    </div>
+    <div id="Carteras" class="categoria categoria4">
+        <p>CARTERAS</p>
+        <h3>Indispensables</h3>
+    </div>
+    <div id="Mandiles" class="categoria categoria5">
+        <p>MANDILES</p>
+        <h3>Indispensables</h3>
+    </div>
+    <div id="Escolares" class="categoria categoria6">
+        <p>ESCOLARES</p>
+        <h3>Indispensables</h3>
+    </div>
+    <div id="Otro" class="categoria categoria7">
+        <p>OTRO</p>
+        <h3>Indispensables</h3>
+    </div>
+</div>
+
+<script src="/js/catalogo.js"></script>
+</body>
+</html>
