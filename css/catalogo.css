@@ -264,7 +264,7 @@ header a {
 
 .content_slider{
     padding: 0;
-    color: #FFF;
+    color: #ffffff;
     width: 100vi;
     height: 100%;
 }
@@ -274,15 +274,15 @@ header a {
 }
 
 .content_slider h2{
-    font-family: 'arial';
+    font-family: "Montserrat", sans-serif;
     font-size: 3.1vi;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     text-transform: uppercase;
 }
 
 .content_slider p {
     font-size: 1.45vi;
-    font-family: 'arial';
+    font-family: "Montserrat", sans-serif;
     color: #FFF;
     margin: 10%;
 }
