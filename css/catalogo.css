@@ -364,6 +364,7 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+
 }
 
 footer div {
@@ -371,6 +372,16 @@ footer div {
     width: 20%;
     margin: 20px;
     padding: 10px;
+}
+
+.copy {
+    background-color: #111;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    color: white;
+    justify-content: center;
+    display: flex;
 }
 
 
