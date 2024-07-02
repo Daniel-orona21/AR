@@ -208,7 +208,7 @@ header a {
 
 
 
-/* Slider */
+/* SLIDER */
 
 #container-slider
 {
@@ -218,6 +218,7 @@ header a {
     z-index: 1;
     margin: 0;
 }
+
 #slider {
     position: relative;
     display: block;
@@ -226,6 +227,7 @@ header a {
     margin: 0;
     z-index: 0;
 }
+
 #slider li {
     background-repeat: no-repeat;
     background-size: cover;
@@ -244,6 +246,7 @@ header a {
     z-index: -1;
     opacity: 0;
 }
+
 #container-slider .arrowPrev, #container-slider .arrowNext{
     font-size: 30pt;
     color: rgba(204, 204, 204, 0.65);
@@ -253,37 +256,44 @@ header a {
     left: 50px;
     z-index: 2; 
 }
+
 #container-slider .arrowNext {
     left: initial;
     right: 50px !important;;
 }
+
 .content_slider{
     padding: 0;
     color: #FFF;
     width: 100vi;
     height: 100%;
 }
+
 .content_slider div{
     text-align: center;
 }
+
 .content_slider h2{
     font-family: 'arial';
     font-size: 3.1vi;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
+
 .content_slider p {
     font-size: 1.45vi;
     font-family: 'arial';
     color: #FFF;
     margin: 10%;
 }
+
 #slider li .content_slider{
     background: rgba(0, 0, 0, 0.50);
     width: 100vi;
     margin: 0;
     padding: 0;
 }
+
 .content_slider{
     display: -webkit-flex;
     display: -moz-flex;
@@ -293,6 +303,7 @@ header a {
     justify-content: center;
     align-items: center;
 }
+
 .btnSlider{
     color: #FFF;
     font-size: 15pt;
@@ -306,10 +317,12 @@ header a {
     transition: .5s all;
     margin-top: 1rem;
 }
+
 .btnSlider:hover{
     background: #111;
     border: 1px solid #111;
 }
+
 .listslider {
     position: absolute;
     display: flex;
@@ -322,6 +335,7 @@ header a {
     padding: 0px;
     justify-content: center;
 }
+
 .listslider li {
     border-radius: 50%;
     width: 10px;
@@ -330,6 +344,7 @@ header a {
     display: flex;
     margin: 5px;
 }
+
 .listslider li a {
     background: #CCC;
     border-radius: 50%;
@@ -337,9 +352,27 @@ header a {
     height: 100%;
     display: block;
 }
+
 .item-select-slid {
     background: #FFF  !important;
 }
+
+footer {
+    height: 20rem;
+    background-color: rgb(33, 33, 33);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer div {
+    color: white;
+    width: 20%;
+    margin: 20px;
+    padding: 10px;
+}
+
 
 @media screen and (max-width: 460px){
 	.content_slider h2 {
